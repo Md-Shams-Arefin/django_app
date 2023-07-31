@@ -1,0 +1,43 @@
+# Caching directories
+*.log
+*.pyc
+*.pyo
+*.pyd
+*.pot
+__pycache__/
+*.egg-info/
+.cache/
+dist/
+build/
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Pipenv
+Pipfile.lock
+
+# Ignore media files (only if you are using a shared storage)
+/media
+
+# Secret keys and sensitive information
+*.secret
+
+# Development settings
+local_settings.py
+
+# Ignore migrations in case you use South or Django 1.6+
+*.bak
+*.sql
+migrations/
+
+# Ignore IDE or editor-specific files (specifically for Visual Studio Code)
+.vscode/
+
+# Ignore macOS specific files (optional, only if you're using macOS)
+.DS_Store

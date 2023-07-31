@@ -1,0 +1,12 @@
+asgiref==3.7.2
+colorama==0.4.6
+Django==4.1.10
+djangotoolbox==1.8.0
+djongo==1.3.6
+dnspython==2.4.1
+linecache2==1.0.0
+psutil==5.9.5
+pymongo==4.4.1
+pytz==2023.3
+sqlparse==0.2.4
+typing-extensions==4.7.1
